@@ -1,0 +1,91 @@
+body {
+  background-color: #E8B4B8;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+p   {
+  font-size: 20px; 
+  font-weight: 900;
+  color: #391306 ;
+}
+
+h2  {
+  color: #4E1A3D ;
+  float: auto ;
+  font-size: 200% ;
+  padding-left: 25px ;
+  text-decoration: underline;
+}
+
+h1  {
+  color: #4E1A3D ;
+  float: auto ;
+  font-size: 400% ;
+  padding-left: 25px ;
+  text-decoration: underline;
+}
+
+h5  {
+	color: #4E1A3D;font-size: 40px
+}
+.center {
+ display: block ;
+ margin-left: auto ;
+ margin-right: auto;
+ width: 50%;
+  border-color: #391306 ;
+ }
+.center {
+ display: block ;
+ margin-left: auto ;
+ margin-right: auto;
+ width: 50%;
+ border-color: #391306;
+}
+.container ul{list-style:none;padding:0;
+ margin:0;
+ position: fixed;
+}
+.container li
+{position:relative;
+}
+.container a
+{display:block;
+padding:3px 12px; 
+height:24px; 
+line-height:24px;
+text-decoration:none;
+white-space:nowrap; 
+background:#A49393;
+color:#000000;
+}
+.container a:hover{background:#EDE4E3
+;color:#391306;}
+.menu{ position:relative;
+*zoom:1;}
+.menu:after,
+.menu:before{content:'';
+display:table;
+line-height:0;}
+.menu:after{clear:both;}
+.menu > li{float:left; margin-right:4px; border:1px solid #67595E}
+input[type=text], select, textarea {width: 100%;padding: 12px;border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;margin-top: 6px;margin-bottom: 16px;resize: vertical }
+input[type=submit] { background-color: #67595E; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer;}
+input[type=submit]:hover {background-color: #A49393;}
+.container {border-radius: 5px;background-color: ;padding: 20px; width: 50%}
+
+.container-1 {position: relative ; width: 400px; float: left;}
+
+.image {opacity: 1;display: block;width: 300px;height: auto;transition: .5s ease;backface-visibility: hidden;  padding: 5px;border: solid; border-width: 15px; margin: 25px;  }
+
+.middle {transition: .5s ease;opacity: 0;position: absolute;top: 50%;  left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);text-align: center;}
+
+.container-1:hover .image {opacity: 0.2;}
+
+.container-1:hover .middle {opacity: 2;}
+
+.text {background-color: #67595E
+	;color: #EED6D3;
+	font-size: 16px;
+	padding: 16px 32px;}
